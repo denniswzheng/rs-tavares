@@ -1,0 +1,9 @@
+<header class="nav">
+  <a class="nav__logo" href="/">RS Tavares</a>
+  <nav class="nav__list">
+    <ul>
+      <li><a {% if page.url == '/' or page.url contains 'work' %}class="active"{% endif %} href="/">About Us</a></li>
+      <li><a href="/">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,25 @@
+// color
+$black: #2D2D2D;
+
+
+// typography
+$font-color: $black;
+$font-size: 1.4rem;
+$font-size-sm: 1.2rem;
+$font-size-lg: 1.6rem;
+$font-size-xlg: 1.8rem;
+
+// layout
+$width-xs: 480px;
+$width-sm: 600px;
+$width-md: 840px;
+$width-lg: 960px;
+$width-xl: 1140px;
+
+$container-width: $width-lg;
+$container-width-lg: $width-xl;
+$container-width-sm: $width-md;
+$container-padding: 32px;
+$container-padding-sm: 16px;
+
+$breakpoints: (xsmall: $width-xs, small: $width-sm, medium: $width-md, large: $width-lg, xlarge: $width-xl);

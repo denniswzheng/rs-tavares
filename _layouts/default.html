@@ -4,5 +4,14 @@ Title: RS Tavares
 <html>
     {% include head.html %}
   <body>
+    <!-- navigation bar -->
+    {% include header.html %}
+    <main>
+      <!-- introduction -->
+      {% include introduction.html %}
+      <!-- projects -->
+      {{ content }}
+    </main>
+    {% include footer.html %}
   </body>
 </html>
